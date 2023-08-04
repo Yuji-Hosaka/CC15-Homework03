@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 10px;
+}
+.bio {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    /* border: solid; */
+    margin: auto;
+    padding: 32px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color:#fc8d83;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	background-color:#e4685d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.detail h1 {
+    margin-bottom: 40px;
+
+    
+}
+/* main {
+    border: solid;
+} */
+.artical {
+    background-color: #EDF7FA;
+    margin: auto;
+    width: 700px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+}
+.recent {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    /* border: solid; */
+    margin: auto;
+}
+.making {
+    /* border: solid; */
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    padding: 16px;
+
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.designwork {
+    /* border: solid; */
+    display: flex;
+}
+.design > h2 {
+    font-size: 12px;
+    /* border: solid; */
+    margin-top: 12px;
+    margin-bottom: 12px;
+}    
+.work .design .designworkcontent {
+    align-items: center;
+}
+
+.designworkcontent * {
+    padding: 8px;
+}
+.design {
+    width: 700px;
+    margin: auto;
+}
+.sns {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    /* border: solid; */
+    margin: auto;
+    height: 100px;
+    padding-top: 50px;
+}
+.copy {
+    width: 400px;
+    /* border: solid; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
